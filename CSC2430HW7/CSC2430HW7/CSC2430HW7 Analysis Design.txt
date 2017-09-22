@@ -1,0 +1,37 @@
+Nate Kaldor
+CSC2430
+HW7  - Analysis and Design
+
+MyString:
+i. Adapt DynArray code to create a copy constructor
+
+ii. Accessor - set a temp pointer to pStr
+	Use pointer arithmetic(?) to return the character at a given position
+	
+
+iii. Resize utility - takes the size as a parameter and either shrink or expand the c-string
+	 Will need to copy the original c-string to the other size.
+
+iv. Add char function
+
+v. isPalindrome
+
+Hobbit
+i. Set the name member variable to be a myString object
+	Will need to include "mystring.h", and remove <string> to do this.
+	Challenging to predict what it will take to implement this without getting started.
+
+ii. Replace the age with birthYear.
+	Will likely be find/replace to adapt this change.
+
+iii. Create a function for the age of the hobbit
+	Parameters: Current year
+	Calculate the age of the hobbit (Current year - BirthYear) and return it.
+
+
+Client Test
+i.
+ii.
+iii.
+iv.
+v.

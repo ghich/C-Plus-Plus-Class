@@ -1,0 +1,33 @@
+Nate Kaldor
+CSC2430 HW8
+Analysis and Design
+
+Sibling List:
+	i. The siblings private member variable will be a pointer, always pointing to the next sibling in the list.
+	   Last sibling will always point to NULL
+
+
+	ii. Search function
+			Will use the hobbit name (a string, in this case) as the key to search for it. Will be a bool, and return true if found
+			and false if not found.
+
+	iii. Insert function
+			Parameters: Name for the 'sibling' to be directly after in the list.
+				If no name given, add to the end.
+
+				I'm going to have to presume that this is inserting a sibling into a separate list or a list for a hobbit object (?) rather than
+				a list of siblings, if it has to verify the name.
+
+			Returns: If the sibling is not contained in the siblings 'list', return false. If it is, do the insertion and return true.
+
+Overloaded Operators:
+	i. Write an overloaded operator = to the Hobbit class.
+
+
+	ii. Write an overloaded operator << to the Hobbit class to output formatted information about the object.
+		
+
+	iii. Overload operator == that is a bool, to compare Hobbits' name, age, all siblings are identical and in the same order.
+		If anything does not match, return true.
+
+Client Testing:

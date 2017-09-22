@@ -1,0 +1,45 @@
+Nate Kaldor
+CSC2430 HW4
+Due 2-11-15
+
+Analysis and Design:
+
+Inputs: Will take user input for each computer in array
+Outputs: Formatted list of computers with the calculated value of the inventory
+Formulas: (price of computer * on hand inventory)
+
+Data Type inputs: (These are private in the header)
+Model number = unsigned short
+Manufacturer name = strign
+CPU clock speed = float
+Pricepoint of computer = float
+Quantity on hand =  int
+
+Header file Computer.h:
+3 Constructors: One for compiler defaults, one for user initialized values, and one for initialized values except price and stock
+6 Mutators: One for each value in the data type, and one to set them all
+5 Accessors: One for each value in the data type. 
+2 Utilities: One to output the values in the data type and the inventory value, and one to calculate the inventory value
+
+Implementation file Computer.cpp:
+Constructors: set user inputs to the data members.
+	The third initializes price to 0.01, and quantity to 0.
+
+Mutators: Modify each member of the data type to user input.
+	Defaults:
+	If clock speed is <= 0, set to 1.0
+	If price set is <= 0, set to 0.01
+	If inventory number is negative, default to 0.
+
+Accessors: Return each specified data member.
+
+Utilities: calcValue will return the inventory value via "return (stock * price);"
+		outputData will take the datatype and output the data members + value to the screen for the user.
+
+
+Client file client.cpp:
+Will have an array for the computers (will use a global constant of 10--if the computer store wants to have a larger inventory later)
+Will use a txt file to initialize the array.
+
+And have a void function to output data that has descriptive formatting.
+

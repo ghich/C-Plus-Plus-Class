@@ -1,0 +1,54 @@
+Chapter 8 
+44. Suppose you have the folloing declarations: (15)
+int times[30][7]
+int speed[17][7]
+int trees[100][7]
+int students[50][7]
+
+a. Write the definition of the function print that can be used to output the contents of those arrays.
+b. Write the C++ statements that calls the function print to output the contents of the arrays times, speed, trees, students.
+
+
+a. void print (int array[][7], int numRows)
+{
+
+	for (int rows = 0; rows < numRows; rows++)
+	{
+		for (int col = 0; col < 7; col++)
+		{
+		cout << array[rows][col] << " " << endl;
+		}
+	}
+
+
+return;
+}
+
+b. The C++ statements would look like this
+
+#include <iostream>
+using namespace std;
+void print (int[][], int);
+
+int main()
+{
+//Need the variables
+int times[30][7];
+int speed[17][7];
+int trees[100][7];
+int students[50][7];
+
+//This sets the variables for rows (I'm not sure if it's okay to just pass the numbers '50' to the function)
+int rowTimes = 30;
+int rowSpeed = 17;
+int rowTrees = 100;
+int rowStudents = 50;
+
+//Calling the function to print off the arrays
+void print (times, rowTimes);
+void print (speed, rowSpeed);
+void print (trees, rowTrees);
+void print (students, rowStudents);
+
+return 0;
+}

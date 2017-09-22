@@ -1,0 +1,81 @@
+Welcome to the simple animation program!
+
+Enter the chars for the next row in the matrix (separated by spaces)
+Use b for a blank space, q q q to quit:
+| b |
+
+Enter the chars for the next row in the matrix (separated by spaces)
+Use b for a blank space, q q q to quit:
+| 0 |
+
+Enter the chars for the next row in the matrix (separated by spaces)
+Use b for a blank space, q q q to quit:
+| b |
+
+9 matrix elements were read in:
+|   |
+| 0 |
+|   |
+
+Enter the chars for the next row in the matrix (separated by spaces)
+Use b for a blank space, q q q to quit:
+\ b /
+
+Enter the chars for the next row in the matrix (separated by spaces)
+Use b for a blank space, q q q to quit:
+b 0 b
+
+Enter the chars for the next row in the matrix (separated by spaces)
+Use b for a blank space, q q q to quit:
+/ b \
+
+9 matrix elements were read in:
+\   /
+  0
+/   \
+
+How many loops for the tie-fighter?
+4
+
+How many loops for the x-wing?
+3
+
+===============================================
+                 Beginning animation
+|   |
+| 0 |
+|   |
+
+| | |
+  0
+| | |
+
+|   |
+| 0 |
+|   |
+
+| | |
+  0
+| | |
+
+|   |
+| 0 |
+|   |
+
+\   /
+  0
+/   \
+
+
+= 0 =
+
+
+\   /
+  0
+/   \
+
+
+= 0 =
+
+
+Press any key to continue . . .

@@ -1,0 +1,30 @@
+Nate Kaldor
+CSC2430 HW6
+Analysis and design
+
+Integrating BOOL ISSORTED:
+	First, integrate the bool isSorted as a private data member.
+	Second, write it into the constructor to be false by default.
+	Third, using the . operator from the original DynArray, copy over the bool in deepcopy.
+		will look like isSorted = original.isSorted
+
+Creating half size function
+	Recycle some code from incSize function.
+	Copy the original capacity to a temp called 'half' and divide by two.
+	After setting temp to NULL, set the capacity to half.
+
+Creating double size function
+	Remove incSize and reSize.
+	I believe the input of an unsigned int is optional, but because reSize used it
+	keeping it in will make it an easier adaptation.
+
+	Take the unsigned int of the capacity and multiply it by two.
+	Copy original array using the copy function.
+	delete pArr, set it as the temp array, and point the temp array to NULL.
+
+	For debugging to be easier, I also want to initialize the elements in the empty 
+	spaces in the array with 0's to make output cleaner using a for loop.
+
+	Update capacity to the new capacity (timesTwo).
+
+	

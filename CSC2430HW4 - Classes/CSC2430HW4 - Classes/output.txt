@@ -1,0 +1,50 @@
+Demonstrating third constructor to initiliaze default values:
+17     Dell 3.33Ghz 0.01 0.00
+
+Demonstrating class function for displaying data:
+ 1       HP 1.50Ghz 250.00 2000.00
+ 2     Dell 3.33Ghz 560.00 2800.00
+ 3   Lenovo 2.50Ghz 450.00 1800.00
+ 4     ASUS 3.16Ghz 375.00 2250.00
+ 5       HP 2.17Ghz 425.00 2125.00
+ 6     Dell 2.40Ghz 400.00 2000.00
+ 7  Toshiba 2.16Ghz 400.00 3200.00
+ 8  Toshiba 2.20Ghz 450.00 4050.00
+ 9     ASUS 1.00Ghz 200.00 2000.00
+10     Dell 2.27Ghz 500.00 3000.00
+
+Demonstrating mutators work:
+10     Dell 2.27Ghz 500.00 3000.00
+
+Demonstrating client function for displaying data:
+Model: 1   Brand: HP       CPU Speed: 1.50Ghz
+ 8 in inventory at: $250.00 each. Total value of $2000.00
+
+Model: 2   Brand: Dell     CPU Speed: 3.33Ghz
+ 5 in inventory at: $560.00 each. Total value of $2800.00
+
+Model: 3   Brand: Lenovo   CPU Speed: 2.50Ghz
+ 4 in inventory at: $450.00 each. Total value of $1800.00
+
+Model: 4   Brand: ASUS     CPU Speed: 3.16Ghz
+ 6 in inventory at: $375.00 each. Total value of $2250.00
+
+Model: 5   Brand: HP       CPU Speed: 2.17Ghz
+ 5 in inventory at: $425.00 each. Total value of $2125.00
+
+Model: 6   Brand: Dell     CPU Speed: 2.40Ghz
+ 5 in inventory at: $400.00 each. Total value of $2000.00
+
+Model: 7   Brand: Toshiba  CPU Speed: 2.16Ghz
+ 8 in inventory at: $400.00 each. Total value of $3200.00
+
+Model: 8   Brand: Toshiba  CPU Speed: 2.20Ghz
+ 9 in inventory at: $450.00 each. Total value of $4050.00
+
+Model: 9   Brand: ASUS     CPU Speed: 1.00Ghz
+10 in inventory at: $200.00 each. Total value of $2000.00
+
+Model: 10  Brand: Dell     CPU Speed: 2.27Ghz
+ 6 in inventory at: $500.00 each. Total value of $3000.00
+
+Press any key to continue . . .

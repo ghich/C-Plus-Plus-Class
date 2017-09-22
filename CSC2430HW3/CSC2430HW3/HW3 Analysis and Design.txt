@@ -1,0 +1,23 @@
+Nate Kaldor
+CSC2430
+HW3 Analysis and Design
+
+Inputs: Take user input to assign characters to 3x3 matrices.
+Outputs: Original matrix in a formatted output, and transposed matrix in a formatted output.
+Formulas:
+Constants: MAX_ROWS and MAX_COL each 3.
+
+Design:
+In the clientMain, it will include a header that is designed to do all of this by creating the datatype with a typedef.
+
+In matrixRotation.h, which is the header file, there will be constants for rows and columns
+Each should be int = 3.
+
+matrixRotation.cpp will hold all the functions that the header calls.
+ 1. A function to initialize the 3x3 arrays.
+	Use double for-loops for rows/columns
+ 2. A function to take user input for those arrays.
+	If "q q q" is entered, stop taking input. 
+	Unsure how to do this right now.
+	If 'b' is entered, treat it as a space.
+	for-loop to check and replace.
